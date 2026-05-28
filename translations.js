@@ -24,7 +24,7 @@ window.PL_I18N = {
       ],
       ctaPrimary: "Book a 30-min call",
       ctaSecondary: "Meet the team",
-      live: "Taking on 1 new engagement in Q3 · Reply within 24h",
+      live: "Book a call · Reply within 24h",
     },
 
     /* ── Services strip (top, dark slab) ──────── */
@@ -282,7 +282,7 @@ window.PL_I18N = {
       ],
       ctaPrimary: "30-Min-Termin buchen",
       ctaSecondary: "Team kennenlernen",
-      live: "1 freier Slot in Q3 · Antwort in 24 h",
+      live: "Termin buchen · Antwort in 24 h",
     },
 
     strip: {

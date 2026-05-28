@@ -1094,4 +1094,5 @@ em.accent, .accent em { font-style: italic; }
   .eng-deep-facts { grid-template-columns: 1fr; }
 
   .nav .btn-primary { padding: 12px 16px; font-size: 13px; }
+  .brand-mark { display: none; }
 }
