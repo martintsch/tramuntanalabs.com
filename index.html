@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-density="regular" data-design="v2" data-dark-tone="mediterranean">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tramuntana Labs — Erick &amp; Martin, senior engineers for SMBs and startups</title>
+  <meta name="description" content="Two senior engineers. From a focused audit to a long-term retainer, solo or alongside your team." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ── Nav ─────────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <img src="logo.png" alt="" class="brand-logo" />
+      </span>
+      <span class="brand-wordmark">
+        <span class="brand-name">tramuntana</span>
+        <span class="brand-sub">Labs</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <a class="nav-link" href="#engineers" data-i18n="nav.engineers">Engineers</a>
+      <a class="nav-link" href="#services" data-i18n="nav.services">Services</a>
+      <a class="nav-link" href="#faq" data-i18n="nav.faq">FAQ</a>
+      <div class="lang" role="tablist" aria-label="Language">
+        <button type="button" role="tab" data-lang="en" class="is-active" onclick="setLocale('en')">en</button>
+        <button type="button" role="tab" data-lang="de" onclick="setLocale('de')">de</button>
+      </div>
+      <a class="btn btn-primary" href="https://calendar.proton.me/bookings#Kh6A4mLSkcbogW-XjE4umm7sPW2R3TcdPqa_r0yPIsw=" target="_blank" rel="noopener">
+        <span data-i18n="nav.cta">Book a call</span>
+        <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-mobile-menu" id="nav-mobile-menu" aria-hidden="true">
+    <a class="nav-mobile-link" href="#engineers" data-i18n="nav.engineers">Engineers</a>
+    <a class="nav-mobile-link" href="#services" data-i18n="nav.services">Services</a>
+    <a class="nav-mobile-link" href="#faq" data-i18n="nav.faq">FAQ</a>
+  </div>
+</nav>
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section class="hero-e" id="top">
+  <div class="wrap">
+    <div class="eyebrow" data-i18n="hero.eyebrow">Tramuntana Labs · Two senior engineers, freelancing as one team</div>
+
+    <div class="hero-e-body">
+      <div class="hero-e-people">
+        <figure class="hero-e-person">
+          <span class="pl-avatar" style="width:120px;height:120px;transform:rotate(3deg)" aria-label="Erick Dennis" title="Erick Dennis">
+            <span class="pl-avatar-stripes" aria-hidden="true"></span>
+            <span class="pl-avatar-initials" aria-hidden="true">ED</span>
+            <img class="pl-avatar-photo pl-avatar-photo--bw" src="erick-dennis-profile.jpeg" alt="" />
+          </span>
+          <figcaption class="hero-e-person-name">
+            <span class="hero-e-person-first">Erick</span>
+            <span class="hero-e-person-last">Dennis</span>
+          </figcaption>
+        </figure>
+        <figure class="hero-e-person">
+          <span class="pl-avatar" style="width:120px;height:120px;transform:rotate(-3deg)" aria-label="Martin Rechenberger" title="Martin Rechenberger">
+            <span class="pl-avatar-stripes" aria-hidden="true"></span>
+            <span class="pl-avatar-initials" aria-hidden="true">MR</span>
+            <img class="pl-avatar-photo" src="martin-rechenberger.256x256.png" alt="" />
+          </span>
+          <figcaption class="hero-e-person-name">
+            <span class="hero-e-person-first">Martin</span>
+            <span class="hero-e-person-last">Rechenberger</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <h1 class="hero-e-display">
+        <span id="hero-pre">Hi, we're Erick and Martin. </span><span class="accent-scribble" id="hero-accent">Forty years</span><span id="hero-post"> of senior engineering between us, now working with SMBs and startups on the software that actually ships.</span>
+      </h1>
+
+      <div class="hero-e-actions">
+        <a class="btn btn-primary" href="https://calendar.proton.me/bookings#Kh6A4mLSkcbogW-XjE4umm7sPW2R3TcdPqa_r0yPIsw=" target="_blank" rel="noopener">
+          <span data-i18n="hero.ctaPrimary">Book a 30-min call</span>
+          <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a class="btn btn-ghost" href="#engineers" data-i18n="hero.ctaSecondary">Meet the team</a>
+      </div>
+
+      <div class="hero-foot">
+        <span class="dot-live"></span>
+        <span data-i18n="hero.live">Taking on 1 new engagement in Q3 · Reply within 24h</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Services strip ───────────────────────────────────── -->
+<section class="svc-strip" aria-labelledby="strip-eyebrow">
+  <div class="wrap">
+    <div class="svc-strip-head">
+      <div class="eyebrow svc-strip-eyebrow" id="strip-eyebrow" data-i18n="strip.eyebrow">What we offer</div>
+      <div class="svc-strip-lede" data-i18n="strip.lede">From hours to months: pick the commitment that fits the problem, and adjust as you go.</div>
+    </div>
+    <ul class="svc-strip-grid" id="svc-strip-grid"></ul>
+  </div>
+</section>
+
+<!-- ── Engineers deep ───────────────────────────────────── -->
+<section class="section eng-deep" id="engineers">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span class="sec-num">§ 01</span>
+      <span data-i18n="engineers.eyebrow">The two of us</span>
+    </div>
+    <div class="eng-deep-head">
+      <h2 data-i18n="engineers.title">Senior hands. No agency layer.</h2>
+      <p class="lede" data-i18n="engineers.lede">We've scaled platforms to tens of millions of users, led engineering organizations, and built backend systems that have to work under real load. Now we bring that experience to smaller teams: as senior hands, advisors, or architects, for as long as you need.</p>
+    </div>
+    <div class="eng-deep-grid" id="eng-deep-grid"></div>
+  </div>
+</section>
+
+<!-- ── Services range ───────────────────────────────────── -->
+<section class="section svc-range" id="services">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span class="sec-num">§ 02</span>
+      <span data-i18n="range.eyebrow">How we work with you</span>
+    </div>
+    <div class="svc-range-head">
+      <h2 data-i18n="range.title">From hours to months: pick the commitment that fits.</h2>
+      <p class="lede" data-i18n="range.lede">Most freelance shops sell one mode. We work the full range, and we adjust as you go.</p>
+    </div>
+    <div class="svc-range-note">
+      <span class="svc-range-note-mark" aria-hidden="true" data-i18n="range.noteMark">↓</span>
+      <span data-i18n="range.note">Every engagement below is flexible: solo, paired with your team, or anything between. Pick the duration; the rest we shape with you.</span>
+    </div>
+    <div class="svc-range-scale" aria-hidden="true">
+      <span data-i18n="range.scale.short">Short</span>
+      <span class="rule"></span>
+      <span data-i18n="range.scale.long">Long</span>
+    </div>
+    <ol class="svc-range-list" id="svc-range-list"></ol>
+    <p class="svc-range-foot" id="svc-range-foot"></p>
+  </div>
+</section>
+
+<!-- ── FAQ ──────────────────────────────────────────────── -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span class="sec-num">§ 03</span>
+      <span data-i18n="faq.eyebrow">Questions</span>
+    </div>
+    <h2 style="margin-top:16px;max-width:18ch" data-i18n="faq.title">Before you book the call.</h2>
+    <div class="faq-list" id="faq-list"></div>
+  </div>
+</section>
+
+<!-- ── CTA ──────────────────────────────────────────────── -->
+<section class="cta" id="contact">
+  <span class="cta-stamp" data-i18n="cta.replyStamp">Reply within 24h</span>
+  <div class="wrap cta-inner">
+    <div>
+      <div class="eyebrow" data-i18n="cta.eyebrow">Reach out</div>
+      <h2 style="margin-top:16px" data-i18n="cta.title">Tell us what's broken. We'll tell you if we can help.</h2>
+      <p class="lede" style="margin-top:20px" data-i18n="cta.lede">A 30-minute call, no pitch deck. If we're a fit, we'll send a written proposal within a week. If not, we'll point you to someone who is.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-accent" href="https://calendar.proton.me/bookings#Kh6A4mLSkcbogW-XjE4umm7sPW2R3TcdPqa_r0yPIsw=" target="_blank" rel="noopener">
+        <span data-i18n="cta.primary">Book a 30-min call</span>
+        <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <div class="cta-meta" id="cta-meta"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ───────────────────────────────────────────── -->
+<footer class="wrap foot">
+  <span data-i18n="foot.copy">© 2026 Tramuntana Labs. Made in Konstanz &amp; Barcelona.</span>
+  <span class="foot-links">
+    <a href="Impressum.html" data-i18n="foot.impressum">Impressum</a>
+    <span aria-hidden="true">·</span>
+    <a href="Impressum.html#privacy" data-i18n="foot.privacy">Privacy</a>
+  </span>
+</footer>
+
+<script src="translations.js"></script>
+<script>
+// ── Config ───────────────────────────────────────────────
+const CAL_LINK = "https://calendar.proton.me/bookings#Kh6A4mLSkcbogW-XjE4umm7sPW2R3TcdPqa_r0yPIsw=";
+
+const ENGINEERS_BASE = [
+  {
+    key: "erick", name: "Erick Dennis", initials: "ED", tiltHero: 3, tiltCard: 2,
+    photo: "erick-dennis-profile.jpeg", photoBw: true,
+    skills: ["Backend Development", "Frontend Development", "Web Apps", "Mobile Development", "Distributed Systems", "Database Optimisation", "Infrastructure & Cloud", "DevOps & IaC", "Platform Architecture", "Engineering Leadership", "LLMs", "Agentic AI"],
+  },
+  {
+    key: "martin", name: "Martin Rechenberger", initials: "MR", tiltHero: -3, tiltCard: -2,
+    photo: "martin-rechenberger.256x256.png",
+    skills: ["Backend Development", "Frontend Development", "Web Apps", "Mobile Development", "Distributed Systems", "Database Optimisation", "Infrastructure & Cloud", "DevOps & IaC", "Platform Architecture", "Engineering Leadership", "LLMs", "Agentic AI"],
+  },
+];
+
+// ── i18n ─────────────────────────────────────────────────
+function getNestedValue(obj, path) {
+  return path.split(".").reduce((o, k) => o?.[k], obj);
+}
+
+function applyLocale(lang) {
+  const t = window.PL_I18N[lang] || window.PL_I18N.en;
+
+  // Simple text nodes
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const val = getNestedValue(t, el.dataset.i18n);
+    if (val !== undefined) el.textContent = val;
+  });
+
+  // Hero headline (titleParts = [pre, accent, post], pre has {n1}/{n2} placeholders)
+  const [pre, accent, post] = t.hero.titleParts;
+  document.getElementById("hero-pre").textContent = pre.replace("{n1}", "Erick").replace("{n2}", "Martin");
+  document.getElementById("hero-accent").textContent = accent;
+  document.getElementById("hero-post").textContent = post;
+
+  // Services strip
+  document.getElementById("svc-strip-grid").innerHTML = t.range.items.map((s, i) => `
+    <li class="svc-strip-item">
+      <span class="svc-strip-num">${String(i + 1).padStart(2, "0")}</span>
+      <span class="svc-strip-title">${s.title}</span>
+      <span class="svc-strip-len">${s.length}</span>
+    </li>
+  `).join("");
+
+  // Engineers deep
+  document.getElementById("eng-deep-grid").innerHTML = ENGINEERS_BASE.map((e, i) => {
+    const tr = t.engineers[e.key];
+    const factLabels = t.engineers.factLabels;
+    const facts = Object.entries(tr.factValues).map(([key, value]) => `
+      <div class="eng-deep-fact">
+        <dt>${factLabels[key] || key}</dt>
+        <dd>${value}</dd>
+      </div>
+    `).join("");
+    const skills = e.skills.map(s => `<span class="skill-chip">${s}</span>`).join("");
+    return `
+      <article class="eng-deep-card">
+        <header class="eng-deep-header">
+          <span class="pl-avatar" style="width:120px;height:120px;transform:rotate(${e.tiltCard}deg)" aria-label="${e.name}" title="${e.name}">
+            <span class="pl-avatar-stripes" aria-hidden="true"></span>
+            <span class="pl-avatar-initials"${e.photo ? ' aria-hidden="true"' : ''}>${e.initials}</span>
+            ${e.photo ? `<img class="pl-avatar-photo${e.photoBw ? ' pl-avatar-photo--bw' : ''}" src="${e.photo}" alt="" />` : ''}
+          </span>
+          <div class="eng-deep-id">
+            <h3>${e.name}</h3>
+            <div class="eng-deep-role">${tr.role}</div>
+            <div class="eng-deep-loc">${tr.location}</div>
+          </div>
+        </header>
+        <p class="eng-deep-bio">${tr.bio}</p>
+        <dl class="eng-deep-facts">${facts}</dl>
+        <div class="eng-deep-skillset">
+          <div class="eng-deep-skills-label">${t.engineers.worksIn}</div>
+          <div class="eng-deep-skills">${skills}</div>
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  // Services range list
+  document.getElementById("svc-range-list").innerHTML = t.range.items.map((s, i) => `
+    <li class="svc-range-item">
+      <div class="svc-range-num">${String(i + 1).padStart(2, "0")}</div>
+      <div class="svc-range-body">
+        <h3>${s.title}</h3>
+        <p>${s.body}</p>
+      </div>
+      <div class="svc-range-meta">
+        <span class="svc-range-len">${s.length}</span>
+      </div>
+    </li>
+  `).join("");
+
+  // Services range footer text
+  document.getElementById("svc-range-foot").innerHTML =
+    `${t.range.footPre}<a href="#contact">${t.range.footLink}</a>${t.range.footPost}`;
+
+  // FAQ
+  document.getElementById("faq-list").innerHTML = t.faq.items.map((f, i) => `
+    <div class="faq-item" data-open="false">
+      <button class="faq-q" aria-expanded="false">
+        <span>${f.q}</span>
+        <span class="plus" aria-hidden="true"></span>
+      </button>
+      <div class="faq-a">${f.a}</div>
+    </div>
+  `).join("");
+  initFAQ();
+
+  // CTA meta (first item = email link, rest = plain spans)
+  document.getElementById("cta-meta").innerHTML = t.cta.meta.map((m, i) =>
+    i === 0 ? `<a href="mailto:${m}">${m}</a>` : `<span>${m}</span>`
+  ).join("");
+
+  // Language buttons
+  document.querySelectorAll(".lang button").forEach(btn => {
+    btn.classList.toggle("is-active", btn.dataset.lang === lang);
+    btn.setAttribute("aria-selected", btn.dataset.lang === lang);
+  });
+
+  document.documentElement.lang = lang;
+}
+
+// ── FAQ accordion ─────────────────────────────────────────
+function initFAQ() {
+  document.querySelectorAll(".faq-item").forEach(item => {
+    item.querySelector(".faq-q").addEventListener("click", () => {
+      const isOpen = item.dataset.open === "true";
+      document.querySelectorAll(".faq-item").forEach(i => {
+        i.dataset.open = "false";
+        i.querySelector(".faq-q").setAttribute("aria-expanded", "false");
+      });
+      if (!isOpen) {
+        item.dataset.open = "true";
+        item.querySelector(".faq-q").setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+}
+
+// ── Locale persistence ────────────────────────────────────
+function setLocale(lang) {
+  const l = lang === "de" ? "de" : "en";
+  try { localStorage.setItem("pl-locale", l); } catch(e) {}
+  applyLocale(l);
+}
+
+function getLocale() {
+  try { return localStorage.getItem("pl-locale") === "de" ? "de" : "en"; } catch(e) { return "en"; }
+}
+
+// ── Boot ──────────────────────────────────────────────────
+applyLocale(getLocale());
+
+// ── Mobile nav ────────────────────────────────────────────
+(function() {
+  const burger = document.getElementById('nav-burger');
+  const menu = document.getElementById('nav-mobile-menu');
+  if (!burger || !menu) return;
+
+  burger.addEventListener('click', function() {
+    const open = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', String(!open));
+    menu.classList.toggle('is-open', !open);
+    menu.setAttribute('aria-hidden', String(open));
+  });
+
+  menu.querySelectorAll('.nav-mobile-link').forEach(function(link) {
+    link.addEventListener('click', function() {
+      burger.setAttribute('aria-expanded', 'false');
+      menu.classList.remove('is-open');
+      menu.setAttribute('aria-hidden', 'true');
+    });
+  });
+})();
+</script>
+</body>
+</html>
