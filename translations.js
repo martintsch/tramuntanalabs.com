@@ -18,7 +18,7 @@ window.PL_I18N = {
       eyebrow: "Tramuntana Labs · Two senior engineers, freelancing as one team",
       // Three parts: [pre, accent (squiggle), post]. {n1}/{n2} = engineer first names.
       titleParts: [
-        "Hi, we're {n1} and {n2}. ",
+        "",
         "Forty years",
         " of senior engineering between us, now working with SMBs and startups on the software that actually ships.",
       ],
@@ -154,9 +154,9 @@ window.PL_I18N = {
             "Konstanz and Barcelona. We work remotely with clients across Europe, the UK and North America. Time-zone overlap is usually fine.",
         },
         {
-          q: "What if the project goes wrong?",
+          q: "Can you guarantee success?",
           a:
-            "We don't take a project we don't think we can ship. If something does go sideways, you keep all code and documentation produced to that point, and we refund unbilled work.",
+            "We won't take on a project we don't think we can ship. If something doesn't go as planned, you own all the code and documentation produced up to that point, and we refund any unbilled work.",
         },
       ],
     },
@@ -276,7 +276,7 @@ window.PL_I18N = {
     hero: {
       eyebrow: "Tramuntana Labs · Zwei Senior-Entwickler, freiberuflich als ein Team",
       titleParts: [
-        "Hallo, wir sind {n1} und {n2}. ",
+        "",
         "Vierzig Jahre",
         " Senior-Engineering zwischen uns, jetzt für KMU und Startups, die Software brauchen, die wirklich funktioniert.",
       ],
@@ -408,9 +408,9 @@ window.PL_I18N = {
             "Konstanz und Barcelona. Wir arbeiten remote mit Kunden in Europa, Großbritannien und Nordamerika. Die Zeitzone ist meistens kein Thema.",
         },
         {
-          q: "Was passiert, wenn das Projekt schiefgeht?",
+          q: "Können Sie Erfolg garantieren?",
           a:
-            "Wir nehmen keine Projekte an, die wir nicht liefern können. Falls doch etwas kippt, behalten Sie sämtlichen Code und alle Dokumente bis zu diesem Punkt; nicht abgerechnete Arbeit erstatten wir.",
+            "Wir nehmen kein Projekt an, das wir nicht liefern können. Falls doch etwas nicht wie geplant läuft, gehören Ihnen sämtlicher Code und alle Dokumente, die bis zu diesem Punkt entstanden sind, und nicht abgerechnete Arbeit erstatten wir.",
         },
       ],
     },
