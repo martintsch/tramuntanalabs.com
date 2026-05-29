@@ -67,7 +67,7 @@
           <span class="pl-avatar" style="width:120px;height:120px;transform:rotate(3deg)" aria-label="Erick Dennis" title="Erick Dennis">
             <span class="pl-avatar-stripes" aria-hidden="true"></span>
             <span class="pl-avatar-initials" aria-hidden="true">ED</span>
-            <img class="pl-avatar-photo pl-avatar-photo--bw" src="erick-dennis-profile.jpeg" alt="" />
+            <img class="pl-avatar-photo pl-avatar-photo--bw" src="erick-dennis-profile.jpeg" alt="Erick Dennis" />
           </span>
           <figcaption class="hero-e-person-name">
             <span class="hero-e-person-first">Erick</span>
@@ -78,7 +78,7 @@
           <span class="pl-avatar" style="width:120px;height:120px;transform:rotate(-3deg)" aria-label="Martin Rechenberger" title="Martin Rechenberger">
             <span class="pl-avatar-stripes" aria-hidden="true"></span>
             <span class="pl-avatar-initials" aria-hidden="true">MR</span>
-            <img class="pl-avatar-photo" src="martin-rechenberger.256x256.png" alt="" />
+            <img class="pl-avatar-photo" src="martin-rechenberger.256x256.png" alt="Martin Rechenberger" />
           </span>
           <figcaption class="hero-e-person-name">
             <span class="hero-e-person-first">Martin</span>
@@ -267,7 +267,7 @@ function applyLocale(lang) {
           <span class="pl-avatar" style="width:120px;height:120px;transform:rotate(${e.tiltCard}deg)" aria-label="${e.name}" title="${e.name}">
             <span class="pl-avatar-stripes" aria-hidden="true"></span>
             <span class="pl-avatar-initials"${e.photo ? ' aria-hidden="true"' : ''}>${e.initials}</span>
-            ${e.photo ? `<img class="pl-avatar-photo${e.photoBw ? ' pl-avatar-photo--bw' : ''}" src="${e.photo}" alt="" />` : ''}
+            ${e.photo ? `<img class="pl-avatar-photo${e.photoBw ? ' pl-avatar-photo--bw' : ''}" src="${e.photo}" alt="${e.name}" />` : ''}
           </span>
           <div class="eng-deep-id">
             <h3>${e.name}</h3>
